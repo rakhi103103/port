@@ -5,13 +5,13 @@ import { useFrame, useThree } from "@react-three/fiber";
 
 import islandScene from "../assets/3d/island.glb";
 
-export function Island({
+const Island = ({
   isRotating,
   setIsRotating,
   setCurrentStage,
   currentFocusPoint,
   ...props
-}) {
+}) => {
   const islandRef = useRef();
   // Get access to the Three.js renderer and viewport
   const { gl, viewport } = useThree();
@@ -94,30 +94,30 @@ export function Island({
     e.stopPropagation();
     e.preventDefault();
     setIsRotating(true);
-  
+
     const clientX = e.touches ? e.touches[0].clientX : e.clientX;
     lastX.current = clientX;
-  }
-  
+  };
+
   const handleTouchEnd = (e) => {
     e.stopPropagation();
     e.preventDefault();
     setIsRotating(false);
-  }
-  
+  };
+
   const handleTouchMove = (e) => {
     e.stopPropagation();
     e.preventDefault();
-  
+
     if (isRotating) {
       const clientX = e.touches ? e.touches[0].clientX : e.clientX;
       const delta = (clientX - lastX.current) / viewport.width;
-  
+
       islandRef.current.rotation.y += delta * 0.01 * Math.PI;
       lastX.current = clientX;
       rotationSpeed.current = delta * 0.01 * Math.PI;
     }
-  }
+  };
 
   useEffect(() => {
     // Add event listeners for pointer and keyboard events
@@ -217,4 +217,5 @@ export function Island({
       />
     </a.group>
   );
-}
+};
+export default Island;
