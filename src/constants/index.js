@@ -1,4 +1,3 @@
-
 import {
   pricewise,
   threads,
@@ -98,7 +97,7 @@ export const projects = [
     theme: "btn-back-blue",
     name: "todo",
     description:
-    "Built a To-Do List app using HTML, CSS, and JavaScript, running on localhost. Users can add tasks with a plus button, write, save, delete, and create new tasks below existing ones.",
+      "Built a To-Do List app using HTML, CSS, and JavaScript, running on localhost. Users can add tasks with a plus button, write, save, delete, and create new tasks below existing ones.",
     link: "https://github.com/rakhi103103/todolist",
   },
   {
@@ -106,7 +105,7 @@ export const projects = [
     theme: "btn-back-green",
     name: "miniBLOG ",
     description:
-      'Created a multi-user mini blog using PHP, JavaScript, HTML, and CSS, where users can upload photos, write posts, and view others content on the homepage.',
+      "Created a multi-user mini blog using PHP, JavaScript, HTML, and CSS, where users can upload photos, write posts, and view others content on the homepage.",
     link: "https://github.com/rakhi103103/php-project",
   },
   {
@@ -129,8 +128,7 @@ export const projects = [
     iconUrl: summiz,
     theme: "btn-back-yellow",
     name: "Role Playing Game",
-    description:
-      "Built a simple roleplaying game using HTML and JavaScript.",
+    description: "Built a simple roleplaying game using HTML and JavaScript.",
     link: "https://github.com/rakhi103103/role-playing-game",
   },
 ];
