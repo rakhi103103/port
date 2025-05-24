@@ -79,6 +79,7 @@ export const socialLinks = [
   {
     name: "GitHub",
     iconUrl: github,
+
     link: "https://github.com/rakhi103103",
   },
 ];

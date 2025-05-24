@@ -49,7 +49,6 @@ const About = () => {
           {socialLinks.map((socialLinks) => (
             <a
               href={socialLinks.link}
-              target="_blank"
               rel="noopener noreferrer"
               className="block-container w-20"
             >
