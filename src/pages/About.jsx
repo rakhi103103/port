@@ -14,10 +14,10 @@ const About = () => {
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          I’m a fresher passionate about coding and building things through
-          constant learning. I often dig into deep-dive tutorials and enjoy
-          experimenting to understand how software really works. Every project I
-          try is a step forward in sharpening my skills
+          I'm a fresher passionate about coding and building things through
+  constant learning. I often dig into deep-dive tutorials and enjoy
+  experimenting to understand how software really works. Every project I
+  try is a step forward in sharpening my skills
         </p>
       </div>
 

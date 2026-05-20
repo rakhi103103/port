@@ -18,8 +18,8 @@ const renderContent = {
       className="sm:text-xl sm:leading-snug text-center neo-brutalism-blue
     py-4 px-8 text-white mx-5"
     >
-      Hi, I am <span className="font-semibold">Rakhi</span>👋 <br />A fresher
-      developer excited to start my software journey😀😊{" "}
+      Hi, I am <span className="font-semibold">Rakhi</span> 👋 <br />
+A fresher data analyst turning raw data into real insights 📊{" "}
     </h1>
   ),
   2: (
